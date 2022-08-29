@@ -1,0 +1,87 @@
+body{
+   margin:0;
+   paddin:0;
+   font-family:Arial,sans-serif;
+  } 
+  #container{
+   width:100%;
+   max-width:1000px;
+   margin:0 auto;
+  }
+  
+#wrape{
+    width:100%;
+    max-width:300px;
+    margin:30 auto;
+    border:px solid black;
+   }#wrape img{
+    width:100px;
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    margin-botton:20;
+   }#wrape form{
+    width:100%;
+    max-width:300px;
+    margin:0 auto;
+    margin-top:30;
+   }#wrape form input{
+    width:100%;
+    height:45px;
+    margin-bottom:10;
+    border-radius:5px;
+    border:1px solid #9DA3A6;
+    outline:none;
+   }#wrape form button{
+    width:100%;
+    height:45px;
+    border-radius:5px;
+    border:0px;
+    margin-top:20;
+    font-weight:bold;
+    color:white;
+    background:#0070BA;
+   }#wrape p {
+    text-align:center;
+    padding:10;
+   }#wrape p a{
+    color:#0070BA;
+    text-decoration:none;
+   }#wrape fieldset{
+    max-width:300px;
+    margin:0 auto;
+    border:0px;
+    border-top:1px solid #CBD2D6;
+    padding:0;
+   }#wrape fieldset legend{
+    text-align:center;
+    padding-left:10;
+    padding-right:10;
+   }#wrape fieldset button{
+    width:100%;
+    height:45px;
+    border:0px;
+    border-radius:5px;
+    background:#E1E7EB;
+    font-weight:bold;
+    outline:none;
+   }
+   
+
+footer{
+background:#F7F9FA;
+width:100%;
+max-width:600px;
+margin-top:200;
+}footer #alignment{
+ width:100%;
+ max-width:300px;
+ margin:0 auto;
+ padding-top:10;
+ padding-bottom:10;
+ display:flex;
+ justify-content:space-between;
+}footer #alignment span{
+ color:#666666;
+ font-size:10px;
+}
